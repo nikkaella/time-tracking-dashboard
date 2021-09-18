@@ -1,7 +1,3 @@
-import App from "./components/App";
+import App from "./App";
 
-ReactDOM.render(React.createElement(
-  "h1",
-  null,
-  "hi"
-), document.getElementById('root'));
+ReactDOM.render(React.createElement(App, null), document.getElementById('root'));
