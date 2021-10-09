@@ -1,11 +1,7 @@
 export default function App() {
     return React.createElement(
-        "div",
+        "h1",
         null,
-        React.createElement(
-            "h1",
-            null,
-            "Hello from App"
-        )
+        "hello from App"
     );
-};
+}

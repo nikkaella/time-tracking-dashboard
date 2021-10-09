@@ -22,132 +22,137 @@
 <body>
 
   <main>
-    <div class="container-sm">
-
-      <div class="one">
-        <div class="profile d-flex row">
-          <div class="col-3">
-            <img class="profilePic" src="images/image-jeremy.png" alt="profile pic">
+    <div class="container-sm d-flex align-items-center justify-content-center">
+      <div class="row">
+        <div class="one col">
+          <div class="profile d-flex row">
+            <div class="col-3">
+              <img class="profilePic" src="images/image-jeremy.png" alt="profile pic">
+            </div>
+            <div class="col">
+              <p>Report for</p>
+              <h1>Jeremy Robson</h1>
+            </div>
           </div>
-          <div class="col">
-            <p>Report for</p>
-            <h1>Jeremy Robson</h1>
+          <div class="timeOptions d-flex row justify-content-center py-3">
+            <div class="col d-flex justify-content-center justify-content-sm-start">
+              <h2 id="daily">Daily</h2>
+            </div>
+            <div class="col d-flex justify-content-center justify-content-sm-start">
+              <h2 id="weekly">Weekly</h2>
+            </div>
+            <div class="col d-flex justify-content-center justify-content-sm-start">
+              <h2 id="monthly">Monthly</h2>
+            </div>
+
+          </div>
+
+        </div>
+        <div class="col row">
+
+          <div id="root"></div>
+
+          <div class="one col-4">
+            Work
+            5hrs
+            <!-- daily -->
+            Previous - 7hrs
+            <!-- daily -->
+            32hrs
+            <!-- weekly -->
+            Previous - 36hrs
+            <!-- weekly -->
+            103hrs
+            <!-- monthly -->
+            Previous - 128hrs
+            <!-- monthly -->
+
+          </div>
+
+          <div class="col-4">
+            Play
+            1hr
+            <!-- daily -->
+            Previous - 2hrs
+            <!-- daily -->
+            10hrs
+            <!-- weekly -->
+            Previous - 8hrs
+            <!-- weekly -->
+            23hrs
+            <!-- monthly -->
+            Previous - 29hrs
+            <!-- monthly -->
+          </div>
+
+
+          <div class="col-4">
+            Study
+            0hrs
+            <!-- daily -->
+            Previous - 1hr
+            <!-- daily -->
+            4hrs
+            <!-- weekly -->
+            Previous - 7hrs
+            <!-- weekly -->
+            13hrs
+            <!-- monthly -->
+            Previous - 19hrs
+            <!-- monthly -->
+
+          </div>
+
+          <div class="col-4">
+            Exercise
+            1hr
+            <!-- daily -->
+            Previous - 1hr
+            <!-- daily -->
+            4hrs
+            <!-- weekly -->
+            Previous - 5hrs
+            <!-- weekly -->
+            11hrs
+            <!-- monthly -->
+            Previous - 18hrs
+            <!-- monthly -->
+
+          </div>
+
+          <div class="col-4">
+            Social
+            1hr
+            <!-- daily -->
+            Previous - 3hrs
+            <!-- daily -->
+            5hrs
+            <!-- weekly -->
+            Previous - 10hrs
+            <!-- weekly -->
+            21hrs
+            <!-- monthly -->
+            Previous - 23hrs
+            <!-- monthly -->
+
+          </div>
+
+          <div class="col-4">
+            Self Care
+            0hrs
+            <!-- daily -->
+            Previous - 1hr
+            <!-- daily -->
+            2hrs
+            <!-- weekly -->
+            Previous - 2hrs
+            <!-- weekly -->
+            7hrs
+            <!-- monthly -->
+            Previous - 11hrs
+            <!-- monthly -->
           </div>
         </div>
-        <div class="timeOptions d-flex row justify-content-center py-3">
-          <div class="col d-flex justify-content-center">
-            <h2 id="daily">Daily</h2>
-          </div>
-          <div class="col d-flex justify-content-center">
-            <h2 id="weekly">Weekly</h2>
-          </div>
-          <div class="col d-flex justify-content-center">
-            <h2 id="monthly">Monthly</h2>
-          </div>
-
-        </div>
-
-      </div>
-
-      <div>
-        Work
-        5hrs
-        <!-- daily -->
-        Previous - 7hrs
-        <!-- daily -->
-        32hrs
-        <!-- weekly -->
-        Previous - 36hrs
-        <!-- weekly -->
-        103hrs
-        <!-- monthly -->
-        Previous - 128hrs
-        <!-- monthly -->
-
-      </div>
-
-      <div>
-        Play
-        1hr
-        <!-- daily -->
-        Previous - 2hrs
-        <!-- daily -->
-        10hrs
-        <!-- weekly -->
-        Previous - 8hrs
-        <!-- weekly -->
-        23hrs
-        <!-- monthly -->
-        Previous - 29hrs
-        <!-- monthly -->
-
-      </div>
-
-      <div>
-        Study
-        0hrs
-        <!-- daily -->
-        Previous - 1hr
-        <!-- daily -->
-        4hrs
-        <!-- weekly -->
-        Previous - 7hrs
-        <!-- weekly -->
-        13hrs
-        <!-- monthly -->
-        Previous - 19hrs
-        <!-- monthly -->
-
-      </div>
-
-      <div>
-        Exercise
-        1hr
-        <!-- daily -->
-        Previous - 1hr
-        <!-- daily -->
-        4hrs
-        <!-- weekly -->
-        Previous - 5hrs
-        <!-- weekly -->
-        11hrs
-        <!-- monthly -->
-        Previous - 18hrs
-        <!-- monthly -->
-
-      </div>
-      <div>
-        Social
-        1hr
-        <!-- daily -->
-        Previous - 3hrs
-        <!-- daily -->
-        5hrs
-        <!-- weekly -->
-        Previous - 10hrs
-        <!-- weekly -->
-        21hrs
-        <!-- monthly -->
-        Previous - 23hrs
-        <!-- monthly -->
-
-      </div>
-
-      <div>
-        Self Care
-        0hrs
-        <!-- daily -->
-        Previous - 1hr
-        <!-- daily -->
-        2hrs
-        <!-- weekly -->
-        Previous - 2hrs
-        <!-- weekly -->
-        7hrs
-        <!-- monthly -->
-        Previous - 11hrs
-        <!-- monthly -->
-
       </div>
     </div>
 
@@ -167,7 +172,9 @@
   <script crossorigin src="https://unpkg.com/react@17.0.0/umd/react.production.min.js"></script>
   <script crossorigin src="https://unpkg.com/react-dom@17.0.0/umd/react-dom.production.min.js"></script>
   <!-- Load our React component. -->
+  <script src="/components/App.js"></script>
   <script src="root.js"></script>
+  
 </body>
 
 </html>
