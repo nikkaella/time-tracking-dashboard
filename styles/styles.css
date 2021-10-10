@@ -26,9 +26,9 @@ h2 {
   margin: 0;
 }
 
-.container-sm {
+/* .container-sm {
 
-}
+} */
 
 .profile {
   background-color: hsl(246, 80%, 60%);
@@ -45,6 +45,17 @@ h2 {
 }
 
 .one {
+  background-color: hsl(235, 46%, 20%);
+  border-radius: 15px;
+  padding: 0 14px;
+}
+
+.two {
+  background-color: hsl(15, 100%, 70%);
+  border-radius: 15px;
+}
+
+.info {
   background-color: hsl(235, 46%, 20%);
   border-radius: 15px;
   padding: 0 14px;

@@ -22,9 +22,10 @@
 <body>
 
   <main>
+
     <div class="container-sm d-flex align-items-center justify-content-center">
       <div class="row">
-        <div class="one col">
+        <div class="one col-3">
           <div class="profile d-flex row">
             <div class="col-3">
               <img class="profilePic" src="images/image-jeremy.png" alt="profile pic">
@@ -34,7 +35,7 @@
               <h1>Jeremy Robson</h1>
             </div>
           </div>
-          <div class="timeOptions d-flex row justify-content-center py-3">
+          <div class="timeOptions d-flex flex-column row-sm  justify-content-center py-3">
             <div class="col d-flex justify-content-center justify-content-sm-start">
               <h2 id="daily">Daily</h2>
             </div>
@@ -52,22 +53,7 @@
 
           <div id="root"></div>
 
-          <div class="one col-4">
-            Work
-            5hrs
-            <!-- daily -->
-            Previous - 7hrs
-            <!-- daily -->
-            32hrs
-            <!-- weekly -->
-            Previous - 36hrs
-            <!-- weekly -->
-            103hrs
-            <!-- monthly -->
-            Previous - 128hrs
-            <!-- monthly -->
-
-          </div>
+          
 
           <div class="col-4">
             Play
@@ -158,23 +144,22 @@
 
   </main>
 
-  <footer class="footer bg-light p-3 fixed-bottom">
+  <!-- <footer class="footer bg-light p-3 fixed-bottom">
     <div class="container d-flex justify-content-center">
       <p class="attribution">Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend
           Mentor</a>.
         Coded by <a href="https://nikkaellayalung.com" target="_blank">Nikka Ella Yalung</a>.</p>
     </div>
-  </footer>
+  </footer> -->
 
   <!-- Scripts -->
-  <!-- Load React. -->
-  <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
-  <script crossorigin src="https://unpkg.com/react@17.0.0/umd/react.production.min.js"></script>
-  <script crossorigin src="https://unpkg.com/react-dom@17.0.0/umd/react-dom.production.min.js"></script>
+  <!-- Load React -->
+  <script crossorigin src="https://unpkg.com/react@17/umd/react.production.min.js"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js"></script>
+
   <!-- Load our React component. -->
-  <script src="/components/App.js"></script>
   <script src="root.js"></script>
-  
+
 </body>
 
 </html>
